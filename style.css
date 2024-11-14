@@ -1,0 +1,392 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&family=Nunito:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    font-family: "Baloo Bhai 2", "Nunito", sans-serif;
+}
+
+:root {
+    --main-color: #FAA067
+}
+
+/*First navbar*/
+.navbar {
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background: rgb(255, 255, 255);
+
+}
+
+.navbar img {
+    height: 90%;
+}
+
+#med {
+    height: 60%;
+}
+
+/*2nd navbar*/
+
+.nav2 {
+    position: sticky;
+    top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 100%;
+    background: #004274;
+}
+
+.nav2 ul li {
+    margin: 0px 10px 0px 10px;
+    text-decoration: none;
+    list-style-type: none;
+    float: left;
+}
+
+.nav2 ul li a {
+    font-size: medium;
+    color: white;
+    text-decoration: none;
+}
+
+.nav2 ul li a:hover {
+    color: rgb(255, 77, 46);
+
+}
+
+/*landpage*/
+
+.landpage {
+    background-color: rgb(255, 255, 255);
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100%;
+}
+
+.cat {
+    text-align: center;
+    height: 250px;
+    width: 270px;
+    background: rgb(255, 255, 255);
+    padding: 0px 50px;
+}
+
+.cat img {
+    float: left;
+    margin-top: 20px;
+    width: 280px;
+}
+
+.cat h6 {
+    color: rgb(111, 24, 143);
+    margin-top: -30px;
+    font-size: 11px;
+}
+
+.cat h4 {
+    margin-top: -8px;
+    font-size: 18px;
+    color: #003660;
+
+}
+
+.cat h2 {
+    margin-top: 25px;
+    font-size: 23px;
+
+}
+
+.cat h3 {
+    margin-top: -38px;
+    color: #004274;
+}
+
+/*cards css   main container*/
+
+.main {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background: rgb(255, 255, 255);
+}
+
+/*products container*/
+.container {
+    margin-top: 15px;
+    height: 100%;
+    width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+/*our products div1*/
+.con {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F6F6F6;
+    height: 70px;
+    width: 100%;
+
+}
+
+/*our products div2*/
+.content {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 800px;
+    padding: 10px;
+    text-align: center;
+    justify-content: space-evenly;
+    font-size: larger;
+}
+
+/* content button*/
+
+.content button {
+
+    height: 30px;
+    width: 75px;
+    background: rgb(0, 0, 0);
+    border-radius: 10px;
+    float: right;
+    color: white;
+    text-decoration: none;
+}
+
+
+/*button hover*/
+
+.content button:hover {
+    height: 35px;
+    width: 80px;
+    background: white;
+    border: 1px solid black;
+    color: rgb(0, 0, 0);
+    border-radius: 15px;
+}
+
+/*our products box in product page*/
+.pcontent {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    background: #F6F6F6;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+    font-size: larger;
+}
+
+/*card css in both pages*/
+
+.card {
+
+    font-optical-sizing: auto;
+    transition: all 50ms ease-in-out;
+    justify-content: space-around;
+    overflow: hidden;
+    margin: 10px;
+    display: flex;
+    height: 230px;
+    width: 150px;
+    background: rgba(218, 226, 236, 0.532);
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.496);
+}
+
+
+
+
+/*card hover*/
+
+.card:hover {
+    box-shadow: 0 0 30px #003660;
+    background: #ffffff7a;
+    transition: 300ms;
+    color: rgb(0, 0, 0);
+}
+
+/*card image*/
+
+#image {
+    height: 50%;
+    background-color: rgb(252, 252, 252);
+    width: 100%;
+
+}
+
+#image img {
+    object-fit: contain;
+    height: 120px;
+    width: 90%;
+    margin-top: -4px;
+    margin-left: 8px;
+    overflow: hidden;
+
+
+}
+
+
+.card #subtitute {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 10px;
+    margin-left: 5px;
+    font-weight: 500;
+}
+
+.card a {
+    font-size: 13px;
+    color: black;
+    font-weight: 700px;
+}
+
+.card h5 {
+    margin-top: -6px;
+    margin-left: 10px;
+}
+
+.card a p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    white-space: wrap;
+    font-style: normal;
+    margin-left: 6px;
+    font-size: 12px;
+    line-height: 1.1;
+}
+
+
+.mrp {
+    margin-top: 8px;
+    height: 36%;
+    width: 100%;
+    background-color: #004274;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.mrp a {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    padding: 60px;
+}
+.mrp a:hover{
+  
+    color: tomato;
+   
+}
+
+
+/* slider*/
+
+
+/*footer css*/
+
+footer {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    height: 100%px;
+    background: #003660;
+    width: 100%;
+}
+
+.foot1 {
+    text-align: center;
+    height: 100%;
+    background: transparent;
+    width: 320px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.foot1 h2 {
+    font-size: 25px;
+
+    color: white;
+}
+
+.foot1 h6 {
+    margin-top: -35px;
+    font-size: 10px;
+    color: white;
+}
+
+.foot1 #add {
+    color: rgb(255, 255, 255);
+    margin-top: -20px;
+}
+
+.foot1 p,
+a {
+
+    font-size: 14px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.foot11 {
+    text-align: center;
+    height: 160px;
+    background: transparent;
+    border: 2px solid transparent;
+    width: 320px;
+    margin-top: 15px;
+}
+
+.foot11 h3 {
+    color: white;
+    font-size: 25px;
+}
+
+
+.foot11 h4 a {
+    font-weight: 300;
+    font-size: medium;
+}
+
+
+.foot2 {
+    display: inline-block;
+
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height: 60px;
+    background: #ffffff;
+    width: 100%;
+    padding: 0px 30px;
+    color: #2a3133;
+}
+
+.foot2 h6 {
+    margin-top: 6px;
+    font-size: 8px;
+}
